@@ -7,7 +7,31 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<div class = "row">
+  <div class = "container col-lg-12">
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3" style ="text-align:center">Phone System</h1>
+    <p style="text-align:center; padding-top:1%; padding-bottom:1%;">Welcome to the Phone System!</p>
+    <p class="lead">To make a call, select the "call" button. To send a text,
+      select the "text" button. To see further instructions on how to use this system, select the "manual button." </p>
+  </div>
+</div>
+
+  </div>
+</div>
+<div class = "row">
 <div class = "col-lg-12 text-center">
-  <a class="btn btn-large btn-info" href="phone.php">Call</a>
-  <a class="btn btn-large btn-info" href="text.php">Text</a>
+  <div class = "container col-lg-3 col-lg-offset-3" style = "padding-top: 5%;">
+  <a class="btn btn-large btn-info" href="phone.php" style= "height: 20%; width: 100%;" >Call</a>
+</div>
+<div class = "container col-lg-3" style = "padding-top: 5%;">
+  <a class="btn btn-large btn-info" href="text.php" style= "height: 20%; width: 100%;" >Text</a>
+</div>
+</div>
+</div>
+<div class = "row">
+  <div class = "container col-lg-4 col-lg-offset-4" style = "padding-top: 3%;">
+  <a class="btn btn-large btn-info" href="manual.php" style= "height: 5%; width: 100%;" >Manual</a>
+  </div>
 </div>
