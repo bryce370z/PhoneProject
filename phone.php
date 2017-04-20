@@ -16,7 +16,7 @@
     <h3>Directory</h3>
   </div>
   </div>
-    <div class= "table-responsive" style="height: 75%; overflow:auto">
+    <div class= "table-responsive" style="height: 70%; overflow:auto">
       <table class="table table-hover">
         <thead>
           <tr>
@@ -94,6 +94,11 @@
         </tbody>
       </table>
     </div>
+    <div class= "row">
+      <div class = "container col-xs-12" style= "padding-top: 10%;">
+        <a class="btn btn-large btn-info" href="callHistory.php" style= "height: 5%; width: 100%;" >Call History</a>
+      </div>
+    </div>
   </div>
   <div class= "container col-xs-9" style="padding-left: 10%">
     <div class = "row" style= "padding-bottom: 3%">
@@ -146,7 +151,10 @@
     <div class ="container col-xs-3">
       <button style= "height: 10%; width: 80%;" type="button" class="btn btn-large btn-info">Call</button>
     </div>
-    <div class ="container col-xs-3 col-xs-offset-3">
+    <div class ="container col-xs-3">
+      <button style= "height: 10%; width: 80%;" type="button" class="btn btn-large btn-info">Redial</button>
+    </div>
+    <div class ="container col-xs-3">
       <button style= "height: 10%; width: 80%;" type="button" class="btn btn-large btn-info">End</button>
     </div>
   </div>

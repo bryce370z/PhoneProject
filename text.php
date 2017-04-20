@@ -6,3 +6,116 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<div class="container col-xs-3">
+  <div class = "row">
+    <div class = "container col-xs-1">
+      <a class="btn btn-large btn-info" href="main.php">Home</a>
+    </div>
+    <div class = "container col-xs-3 col-xs-offset-2" style = "padding-bottom: 3%">
+  <h3>Directory</h3>
+</div>
+</div>
+  <div class= "table-responsive" style="height: 70%; overflow:auto">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class= "row">
+    <div class = "container col-xs-12" style= "padding-top: 16%;">
+      <a class="btn btn-large btn-info" href="callHistory.php" style= "height: 5%; width: 100%;" >Call History</a>
+    </div>
+  </div>
+</div>
+
+<div class = "container col-xs-9" style = "padding-left: 10%;">
+  <div class = "row">
+    <div class = "container col-xs-9" style = "padding-top: 0%;">
+      <h3 style = "text-align:center; padding-bottom: 5%;">Texts</h3>
+      <input type="text" class="form-control" placeholder="Current conversation would be displayed here." aria-describedby="basic-addon1" style = "width: 100%; height:50%">
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "container col-xs-9" style = "padding-top:5%">
+      <input type="text" class="form-control" placeholder="Messages would be typed here." aria-describedby="basic-addon1" style = "width: 100%; height:10%">
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "container col-xs-3 col-xs-offset-3" style = "padding-top: 3%;">
+      <button style="height: 10%; width:100%;" type="button" class= "btn btn-large btn-info">Send Message</button>
+    </div>
+  </div>
+</div>

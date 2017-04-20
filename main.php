@@ -31,7 +31,7 @@
 </div>
 </div>
 <div class = "row">
-  <div class = "container col-lg-4 col-lg-offset-4" style = "padding-top: 3%;">
+  <div class = "container col-lg-6 col-lg-offset-3" style = "padding-top: 3%;">
   <a class="btn btn-large btn-info" href="manual.php" style= "height: 5%; width: 100%;" >Manual</a>
   </div>
 </div>
