@@ -7,6 +7,49 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<style>
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.closebtn:hover {
+    color: black;
+}
+</style>
+
+<div class ="row">
+  <div class = "container col-xs-12">
+    <div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      Missed call from John Doe at 8:25pm. <a href="phone.php" class="alert-link">Click here</a> to call them.
+    </div>
+  </div>
+</div>
+<div class ="row">
+  <div class = "container col-xs-12">
+    <div class="alert" style="background-color: #000000;">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      Missed text from Bob Smith at 9:00am. <a href="text.php" class="alert-link">Click here</a> to reply.
+    </div>
+  </div>
+</div>
 <div class = "row">
   <div class = "container col-lg-12">
     <div class="jumbotron jumbotron-fluid">

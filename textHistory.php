@@ -15,7 +15,7 @@
 </div>
 <div class = "row">
   <div class = "container col-xs-12">
-    <div class= "table-responsive" style="height: 100%; width: 100%;">
+    <div class= "table-responsive" style="height: 80%; width: 100%;">
       <table class="table table-hover">
         <thead>
           <tr>
@@ -106,6 +106,13 @@
           </tr>
         </tbody>
       </table>
+    </div>
+  </div>
+</div>
+<div class = "row">
+  <div class = "container col-xs-12" style = "padding-top: 0%;">
+    <div class = "container col-xs-4 col-xs-offset-4">
+      <button class = "btn btn-large btn-info" style = "height: 10%; width: 100%;">Delete Recent History</button>
     </div>
   </div>
 </div>

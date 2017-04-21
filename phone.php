@@ -159,3 +159,12 @@
     </div>
   </div>
 </div>
+
+<div class = "row">
+  <div class = "container col-xs-12" style="padding-top: 3%;">
+    <div class = "container col-xs-4 col-xs-offset-4">
+      <a class = "link" style = "height: 5%; width: 100%;" href="answerCall.php">Simulate Incoming Call</a>
+    </div>
+    </div>
+  </div>
+</div>
