@@ -14,11 +14,15 @@
   <div class = "container col-xs-1">
     <a class="btn btn-large btn-info" href="phone.php" style = "width: 100%">Calls</a>
   </div>
-  <div class = "container col-xs-8">
+</div>
+<div class = "row" style = "padding-top: 8%;">
+  <div class = "container col-xs-12">
+    <div class = "container col-xs-8 col-xs-offset-2">
       <input type="text" class="form-control" placeholder="Current call recipient, displayed here" aria-describedby="basic-addon1" style = "text-align:center; width: 100%; height:10%">
     </div>
 </div>
-<div class = "row" style = "padding-top: 3%;">
+</div>
+<div class = "row" style = "padding-top: 5%;">
   <div class = "container col-xs-4 col-xs-offset-2">
     <button style= "height: 10%; width: 100%;" type="button" class="btn btn-large btn-info">Hold</button>
   </div>
