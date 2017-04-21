@@ -46,7 +46,7 @@
   <div class = "container col-xs-12">
     <div class="alert" style="background-color: #000000;">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      Missed text from Bob Smith at 9:00am. <a href="text.php" class="alert-link">Click here</a> to send a text.
+      Received a text from Bob Smith at 9:00am. <a href="text.php" class="alert-link">Click here</a> to send a text.
     </div>
   </div>
 </div>
