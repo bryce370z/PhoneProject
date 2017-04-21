@@ -22,16 +22,19 @@
 </div>
 <div class = "row">
 <div class = "col-lg-12 text-center">
-  <div class = "container col-lg-3 col-lg-offset-3" style = "padding-top: 5%;">
+  <div class = "container col-lg-4" style = "padding-top: 5%;">
   <a class="btn btn-large btn-info" href="phone.php" style= "height: 20%; width: 100%;" >Call</a>
 </div>
-<div class = "container col-lg-3" style = "padding-top: 5%;">
+<div class = "container col-lg-4" style = "padding-top: 5%;">
   <a class="btn btn-large btn-info" href="text.php" style= "height: 20%; width: 100%;" >Text</a>
+</div>
+<div class = "container col-lg-4" style = "padding-top: 5%;">
+  <a class="btn btn-large btn-info" href="settings.php" style= "height: 20%; width: 100%;" >Settings</a>
 </div>
 </div>
 </div>
 <div class = "row">
-  <div class = "container col-lg-6 col-lg-offset-3" style = "padding-top: 3%;">
+  <div class = "container col-lg-12" style = "padding-top: 3%;">
   <a class="btn btn-large btn-info" href="manual.php" style= "height: 5%; width: 100%;" >Manual</a>
   </div>
 </div>
