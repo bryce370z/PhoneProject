@@ -45,3 +45,10 @@
 </div>
 </div>
 </div>
+
+<div class = "row">
+  <div class = "container col-xs-6">
+    <a class="btn btn-large btn-info" href="blocked.php" style= "width: 100%">Blocked Recipients</a>
+  </div>
+  </div>
+</div>

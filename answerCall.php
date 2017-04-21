@@ -9,10 +9,10 @@
 
 <div class = "row">
   <div class = "container col-xs-1">
-    <a class="btn btn-large btn-info" href="main.php">Home</a>
+    <a class="btn btn-large btn-info" href="main.php" style = "width: 100%">Home</a>
   </div>
   <div class = "container col-xs-1">
-    <a class="btn btn-large btn-info" href="phone.php">Calls</a>
+    <a class="btn btn-large btn-info" href="phone.php" style = "width: 100%">Calls</a>
   </div>
   <div class = "container col-xs-8">
       <input type="text" class="form-control" placeholder="Current call recipient, displayed here" aria-describedby="basic-addon1" style = "text-align:center; width: 100%; height:10%">

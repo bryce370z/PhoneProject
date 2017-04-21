@@ -38,7 +38,7 @@
   <div class = "container col-xs-12">
     <div class="alert">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      Missed call from John Doe at 8:25pm. <a href="phone.php" class="alert-link">Click here</a> to call them.
+      Missed call from John Doe at 8:25pm. <a href="phone.php" class="alert-link">Click here</a> to make a call.
     </div>
   </div>
 </div>
@@ -46,7 +46,7 @@
   <div class = "container col-xs-12">
     <div class="alert" style="background-color: #000000;">
       <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      Missed text from Bob Smith at 9:00am. <a href="text.php" class="alert-link">Click here</a> to reply.
+      Missed text from Bob Smith at 9:00am. <a href="text.php" class="alert-link">Click here</a> to send a text.
     </div>
   </div>
 </div>
