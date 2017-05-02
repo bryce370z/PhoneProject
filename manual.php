@@ -56,9 +56,16 @@
       <div class = "row">
         <div class = "container col-xs-12">
           <ul style="list-style-type:disc">
-            <li><p>To block someone from being able to call or text you, input their name or number in the box provided, and press the "Block" button.</p></li>
-            <li><p>To unblock a person who is currently blocked, type their name or number in the box provided, and press the "Unblock" button.</p></li>
+            <li><p>To block or unblock someone from being able to call or text you, input their name or number in the box provided, and press the "Block/Unblock" button.</p></li>
             <li><p>To add someone to the directory of known recipients, type their name or number in the box prvovided, and press the "Add" button.</p></li>
+            <li>To toggle notifcations for missed calls and recieved texts, tick their respective boxes.</li>
+            <li>To adjust the brightness of the screen, use the slider located under "Brightness".</li>
+            <li>To create texts messages by speaking, tick the box next to "Speech to Text".</li>
+            <li>To have your text messages spell checked, tick the box next to "Spell Check" </li>
+            <li>To have your texts read aloud, tick the box next to "Read Texts Audibly"</li>
+            <li>To adjust call volume, use the slider located under "Call Volume".</li>
+            <li> To display an incoming callers name, tick the box next to "Display Incoming Callers Name". </li>
+            <li> To display an incoming callers phone number, tick the box next to "Display Incoming Callers Number". </li>
           </ul>
         </div>
       </div>
