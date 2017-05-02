@@ -9,7 +9,18 @@
 <div class = "row">
   <div class = "container col-xs-12">
     <div class = "container col-xs-1">
-      <a class="btn btn-large btn-info" href="main.php">Home</a>
+      <div class="dropdown">
+      <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Menu
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+      <li><a href="main.php">Home</a></li>
+      <li><a href="phone.php">Calls</a></li>
+      <li><a href="text.php">Texts</a></li>
+      <li><a href="directory.php">Directory</a></li>
+      <li><a href="manual.php">Manual</a></li>
+      <li><a href="settings.php">Settings</a></li>
+      </ul>
+      </div>
     </div>
   </div>
 </div>

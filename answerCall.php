@@ -9,10 +9,7 @@
 
 <div class = "row">
   <div class = "container col-xs-1">
-    <a class="btn btn-large btn-info" href="main.php" style = "width: 100%">Home</a>
-  </div>
-  <div class = "container col-xs-1">
-    <a class="btn btn-large btn-info" href="phone.php" style = "width: 100%">Calls</a>
+    <a class = "btn btn-info" href = "phone.php">Calls</a> 
   </div>
 </div>
 <div class = "row" style = "padding-top: 8%;">
