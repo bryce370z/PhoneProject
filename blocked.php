@@ -9,7 +9,7 @@
 <div class = "row">
   <div class = "container col-xs-12">
     <div class = "container col-xs-1">
-      <a class="btn btn-large btn-info" href="main.php">Home</a>
+      <a class="btn btn-large btn-info" href="settings.php">Settings</a>
     </div>
   </div>
 </div>

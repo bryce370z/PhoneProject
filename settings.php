@@ -16,27 +16,23 @@
 </div>
 
 <div class = "row">
-  <div class = "container col-xs-12" style = "padding-bottom: 5%; padding-top: 5%;">
+  <div class = "container col-xs-12" style = "padding-bottom: 3%; padding-top: 5%;">
     <div class = "container col-xs-4">
   <input type="text" class="form-control" placeholder="Block someone from calling you" aria-describedby="basic-addon1" style = "width: 105%; height:8%">
+  <div class = "row">
+    <div class = "container col-xs-12 col-xs-offset-4">
+        <a href="blocked.php">Blocked Recipients</a>
+    </div>
+  </div>
 </div>
 <div class = "container col-xs-2">
-  <button style= "height: 8%; width: 100%;" type="button" class="btn btn-large btn-info">Block</button>
+  <button style= "height: 8%; width: 100%;" type="button" class="btn btn-large btn-info">Block/Unblock</button>
 </div>
 </div>
 </div>
+
 <div class = "row">
-  <div class = "container col-xs-12" style = "padding-bottom: 5%; padding-top: 5%;">
-    <div class = "container col-xs-4">
-  <input type="text" class="form-control" placeholder="Unblock someone from your list of blocked numbers" aria-describedby="basic-addon1" style = "width: 105%; height:8%">
-</div>
-<div class = "container col-xs-2">
-  <button style= "height: 8%; width: 100%;" type="button" class="btn btn-large btn-info">Unblock</button>
-</div>
-</div>
-</div>
-<div class = "row">
-  <div class = "container col-xs-12" style = "padding-bottom: 5%; padding-top: 5%;">
+  <div class = "container col-xs-12" style = "padding-bottom: 2%;">
     <div class = "container col-xs-4">
   <input type="text" class="form-control" placeholder="Add someone to the directory" aria-describedby="basic-addon1" style = "width: 105%; height:8%">
 </div>
@@ -47,8 +43,49 @@
 </div>
 
 <div class = "row">
-  <div class = "container col-xs-6">
-    <a class="btn btn-large btn-info" href="blocked.php" style= "width: 100%">Blocked Recipients</a>
+  <div class = "container col-xs-12" style = "padding-left: 2%;">
+      <h2>General Settings</h2>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Missed Call Notifications</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Recieved Text Notifications</label>
+    </div>
+      <h4 style = "padding-top: 1%;"> Screen Brightness: </h4>
+      <div class="range-slider" style = "width: 18%;">
+        <input class="range-slider__range" type="range" value="0" min="0" max="100">
+      </div>
+    </div>
+</div>
+
+<div class = "row">
+  <div class = "container col-xs-12" style = "padding-left: 2%;">
+      <h2> Text Settings </h2>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Speech to Text</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Spell Check</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Read Texts Audibly</label>
+    </div>
   </div>
+</div>
+<div class = "row">
+  <div class = "container col-xs-12" style = "padding-left: 2%;">
+      <h2> Call Settings </h2>
+      <h4 style = "padding-top: 1%;"> Call Volume: </h4>
+      <div class="range-slider" style = "width: 18%;">
+        <input class="range-slider__range" type="range" value="0" min="0" max="100">
+      </div>
+      <div class="checkbox" style = "padding-top: 1%;">
+        <label><input type="checkbox" value="">Display Incoming Callers Name</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value="">Display Incoming Callers Number</label>
+      </div>
+
+    </div>
   </div>
 </div>

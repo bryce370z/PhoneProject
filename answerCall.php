@@ -38,7 +38,10 @@
   </div>
 
   <div class = "container col-xs-4">
-    <button style= "height: 10%; width: 100%;" type="button" class="btn btn-large btn-info">Volume</button>
+    <h3 style = "text-align: center;"> Volume </h3>
+    <div class="range-slider" style = "padding-top:1%;">
+      <input class="range-slider__range" type="range" value="0" min="0" max="100">
+    </div>
   </div>
 </div>
 
